@@ -19,7 +19,8 @@ mongoose.connect('mongodb://127.0.0.1:27017/ecommerce')
 })
 .catch((err)=>{
     console.log(err.toString());
-    console.log("hi")
+    console.log("hi");
+    console.log("hoise");
 })
 
 //api route
